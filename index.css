@@ -44,7 +44,7 @@
 .div1 {
     height:70px;
     width:auto;
-    background-color:lightgrey;
+    background-color:pink;
     
 }
 .heading {
@@ -167,6 +167,8 @@
     text-align: center;
     padding: 10px;
     font-size: 13px;
+    bottom:0;
+    width:100%;
 }
 #footer ul   { 
  
