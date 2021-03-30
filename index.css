@@ -1,3 +1,7 @@
+body {
+    background-image: url(pgbg.png);
+}
+
 @media(min-width:1000px) {
 
     #nav {
@@ -20,20 +24,26 @@
     
 }
 
-@media(max-width:475px) {
+@media(max-width:500px) {
     #div1 {
        display: none;
-    }   
+    }
+
 }
 @media(max-width:999px) {
     #nav2 {
        display: none;
     }   
 }
+
 @media(max-width:500px) {
     #la {
         color:black;
     }
+}
+
+#car1 {
+    margin-top: 20px;
 }
 #th {
     width:500px;
@@ -44,8 +54,11 @@
 .div1 {
     height:70px;
     width:auto;
-    background-color:pink;
+    background-color: pink;
     
+}
+.lp {
+    color:black;
 }
 .heading {
     margin-left: 55px;
@@ -72,9 +85,6 @@
     height:30px;
 }
 
-#car1 {
-    position: relative;
-}
 .between {
     height:250px;
     width:350px;
@@ -154,14 +164,17 @@
   }
 
 #att{
-    text-align:left;
+    color:azure;
 }
 
+#he {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 #footer {
 
     background-color: #5c755e;
     margin-top:10px;
-    height: 70px;
+    height: 50px;
     border-radius: 5px;
     color: #efe5d0;
     text-align: center;
